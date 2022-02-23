@@ -1,0 +1,20 @@
+from PyQt6.QtWidgets import QWidget
+from PyQt6.QtWidgets import QLabel
+from PyQt6.QtWidgets import QApplication
+import sys
+
+app = QApplication(sys.argv)
+
+window = QWidget()
+
+window.setWindowTitle('PyQt6 App')
+
+window.setGeometry(100, 100, 1280, 720)
+
+helloMsg = QLabel('Hello World!', parent=window)
+
+helloMsg.move(600, 360)
+
+window.show()
+
+sys.exit(app.exec())
