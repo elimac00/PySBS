@@ -1,4 +1,5 @@
 from PyQt6.QtWidgets import *
+from PyQt6.QtGui import *
 from MyWidget import MyWidget
 
 
@@ -8,17 +9,17 @@ class MyMainWindow(QMainWindow):
 
         self.setWindowTitle("My Title")
 
-        myCentralWidget = MyWidget()
-        self.setCentralWidget(myCentralWidget)
+        self.myCentralWidget = MyWidget()
+        self.setCentralWidget(self.myCentralWidget)
 
         myMenuBar = QMenuBar(self)
         self.setMenuWidget(myMenuBar)
 
         myMenu = myMenuBar.addMenu("Datei")
-        myMenu.addAction("Bild laden", self.fileHandler)
-        myMenu.addAction("Vergrößern", myCentralWidget.bigger)
-        myMenu.addAction("Verkleinern", myCentralWidget.smaller)
-        myMenu.addAction("Orginal", myCentralWidget.orginal)
+        myMenu.addAction("Bild laden....", self.myCentralWidget.open)
+        myMenu.addAction("Vergrößern", self.myCentralWidget.bigger)
+        myMenu.addAction("Verkleinern", self.myCentralWidget.smaller)
+        myMenu.addAction("Orginal", self.myCentralWidget.orginal)
         myMenu.addSection("Ab hier wirds komisch")
 
         mySubMenu = myMenu.addMenu("UnterMenü")
@@ -30,13 +31,3 @@ class MyMainWindow(QMainWindow):
 
         myMenuBar.show()
 
-        self.fileHandler()
-
-    def fileHandler(self):
-        dialog = QFileDialog(self)
-        dialog.setNameFilter("Hundebilder (*.png *.jpeg *.jpg)")
-        dialog.setViewMode(QFileDialog.ViewMode.Detail)
-
-        #dialog.exec()
-         #   fileName = dialog.selectFile()
-          #  print(fileName)

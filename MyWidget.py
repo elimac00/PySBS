@@ -48,7 +48,26 @@ class MyWidget(QWidget):
 
         layout.addWidget(slider_1, 6, 2)
 
-        self.picture = QPixmap("Berner-Sennenhund.jpeg")
+
+        lineEdit = QLineEdit(self)
+        lineEdit.setText("Anfangstext")
+
+        self.label35 = QLabel(self)
+        self.label35.setText(lineEdit.text())
+        lineEdit.textChanged.connect(self.label35.setText)
+        layout.addWidget(lineEdit, 7, 1)
+
+        self.textEdit = QTextEdit(self)
+        self.textEdit.setLineWrapMode(QTextEdit.LineWrapMode.NoWrap)
+        self.textEdit.setText("Hallo Welt")
+        self.textEdit.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        layout.addWidget(self.textEdit, 7, 0, 7, 3)
+        layout.addWidget(self.label35, 7, 2)
+        layout.addWidget(self.label35, 7, 2)
+
+
+        self.picture = QPixmap("Katze3.jpeg")
         self.pictureLabel = self.picture.scaled(640, 480)
 
         self.label = QLabel()
@@ -73,3 +92,32 @@ class MyWidget(QWidget):
         scaled_size = size * percent/100.0
         self.label.setPixmap(self.picture.scaled(scaled_size))
 
+
+
+    def open(self):
+        path = "/Users/student/Pictures"
+        title = "Katzenbild öffnen"
+        fileType = "PNG (*.png *.jpg *.jpeg)"
+        filename, type = QFileDialog.getOpenFileName(self, title, path, fileType)
+
+        if filename == "":
+            return
+
+        if filename.endswith(".py"):
+            file = QFile(filename)
+
+            if file.open(QIODevice.OpenModeFlag.ReadOnly):
+                out = QTextStream(file)
+                text = out.readAll()
+            else:
+                text = "Could not open files " + filename
+
+            self.textEdit.setText(text)
+            return
+
+        self.picture = QPixmap(filename)
+        self.label.setPixmap(self.picture)
+        self.label35.setText(type)
+
+
+        self.textEdit.setText(filename)
