@@ -10,4 +10,7 @@ class MainSBS(QMainWindow):
         self.myCentralWidget = Widget()
         self.setCentralWidget(self.myCentralWidget)
 
-        self.setFixedSize(500, 500)
+        #self.setFixedSize(700, 700)
+
+        mymenuBar = QMenuBar(self)
+        self.setMenuWidget(mymenuBar)
