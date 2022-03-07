@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b94a2160-b99e-4d16-8f84-c52be8da4998" name="Changes" comment="24.2.22">
+    <list default="true" id="b94a2160-b99e-4d16-8f84-c52be8da4998" name="Changes" comment="07.03.2022">
+      <change afterPath="$PROJECT_DIR$/SBS/dbPySBS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SBS/testbench.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SBS/MainSBS.py" beforeDir="false" afterPath="$PROJECT_DIR$/SBS/MainSBS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SBS/Widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/SBS/Widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SBS/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SBS/main2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main2">
+  <component name="RunManager" selected="Python.testbench">
     <configuration name="MainWindow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySBS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_installing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="testbench" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySBS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SBS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_installing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SBS/testbench.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testbench" />
         <item itemvalue="Python.main2" />
         <item itemvalue="Python.Widget" />
         <item itemvalue="Python.MainWindow" />
         <item itemvalue="Python.MyWidget_alt" />
-        <item itemvalue="Python.test_installing" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645714683352</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="24.2.22">
+      <created>1646645242714</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1646645242714</updated>
+    </task>
+    <task id="LOCAL-00007" summary="07.03.2022">
+      <created>1646645546966</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646645546966</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +254,7 @@
     <MESSAGE value="1.push" />
     <MESSAGE value="23.2.22" />
     <MESSAGE value="24.2.22" />
-    <option name="LAST_COMMIT_MESSAGE" value="24.2.22" />
+    <MESSAGE value="07.03.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="07.03.2022" />
   </component>
 </project>
