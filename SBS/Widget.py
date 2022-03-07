@@ -37,4 +37,12 @@ class Widget(QWidget):
         lineEdit2 = QLineEdit(self)
         layout.addWidget(lineEdit2,2,2,1,1)
 
+        self.customer_overview = QLabel(self)
+        self.customer_overview.setText("Customer-Overview:")
+        layout.addWidget(self.customer_overview, 0,5,1,2)
+
+
+
+
+
 
