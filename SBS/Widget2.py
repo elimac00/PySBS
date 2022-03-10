@@ -19,19 +19,19 @@ class Widget2(QWidget):
 
         save_button = QPushButton(self)
         save_button.setText("Save")
-        layout.addWidget(save_button,4,0)
+        layout.addWidget(save_button,4,0,1,1)
 
         delete_button = QPushButton(self)
         delete_button.setText("Delete")
-        layout.addWidget(delete_button, 4, 1)
+        layout.addWidget(delete_button, 4,1,1,1)
 
         edit_button = QPushButton(self)
         edit_button.setText("Edit")
-        layout.addWidget(edit_button, 4, 2)
+        layout.addWidget(edit_button, 4,2,1,1)
 
         add_button = QPushButton(self)
         add_button.setText("Add")
-        layout.addWidget(add_button, 4, 3)
+        layout.addWidget(add_button, 4,3,1,1)
 
 
     #def save(self):

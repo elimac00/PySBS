@@ -48,7 +48,8 @@ class Widget(QWidget):
         text = self.combo1.currentText()
         self.textEdit2.setText(text)
 
-
+        #QRadioButton (Nur einen Punkt kann ich auswählen)
+        #QCheckBox (Haken setzen)
 
 
 
