@@ -9,6 +9,7 @@ class MainSBS(QMainWindow):
         super().__init__()
 
         self.setWindowTitle("Py SBS")
+        #self.setFixedSize(600,600)
 
         self.myCentralWidget = QTabWidget()
         self.setCentralWidget(self.myCentralWidget)
