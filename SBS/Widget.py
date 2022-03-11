@@ -13,9 +13,15 @@ class Widget(QWidget):
         #add_button.setText("add")
         #layout.addWidget(add_button,2,2)
 
+        width = 20
+        height = 20
 
+        size = QSize(width, height)
         search_button = QPushButton(self)
         search_button.setText("search")
+        icon_search = QIcon("./search_icon.png")
+        search_button.setIcon(icon_search)
+        search_button.setIconSize(size)
         layout.addWidget(search_button,4,3,1,1)
 
         self.combo1 = QComboBox(self)
@@ -29,6 +35,7 @@ class Widget(QWidget):
 
         self.customer_search = QLabel(self)
         self.customer_search.setText("Customer-Search:")
+        #customer = QIcon("./customer.jpeg")
         layout.addWidget(self.customer_search, 0, 0, 1, 2)
 
         self.textEdit1 = QLabel(self)
@@ -48,8 +55,13 @@ class Widget(QWidget):
         text = self.combo1.currentText()
         self.textEdit2.setText(text)
 
+        #TODO Bilder noch einsetzen ICONS
+
         #QRadioButton (Nur einen Punkt kann ich auswählen)
         #QCheckBox (Haken setzen)
+        #QIcon (set.Icon) ----> Bild einfügen, den pfad einfügen
+
+
 
 
 
