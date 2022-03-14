@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b94a2160-b99e-4d16-8f84-c52be8da4998" name="Changes" comment="11.03.2022">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    <list default="true" id="b94a2160-b99e-4d16-8f84-c52be8da4998" name="Changes" comment="14.03.2022&#10;Datenabnk API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646998422774</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="14.03.2022&#10;Datenabnk API">
+      <created>1647264244961</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647264244962</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,6 +306,7 @@
     <MESSAGE value="09.03.2022" />
     <MESSAGE value="10.03.2022" />
     <MESSAGE value="11.03.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.03.2022" />
+    <MESSAGE value="14.03.2022&#10;Datenabnk API" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.03.2022&#10;Datenabnk API" />
   </component>
 </project>

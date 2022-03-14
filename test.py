@@ -9,7 +9,7 @@ class MyDialog(QtWidgets.QMainWindow):
         super(MyDialog, self).__init__()
         uic.loadUi("Hallo2.ui", self)
         self.__btn1 = self.findChild(QPushButton, "btn1")
-        self.__btn1.startsStop.clicked.connect(self.StartStopGol)
+        self.__btn1.clicked.connect(self.btn_test)
 
 
 
