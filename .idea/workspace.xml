@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b94a2160-b99e-4d16-8f84-c52be8da4998" name="Changes" comment="10.03.2022">
-      <change afterPath="$PROJECT_DIR$/SBS/add_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBS/customer.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBS/customer_search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBS/customers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBS/delete_icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBS/edit_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBS/safeicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBS/search_icon.png" afterDir="false" />
+    <list default="true" id="b94a2160-b99e-4d16-8f84-c52be8da4998" name="Changes" comment="11.03.2022">
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SBS/MainSBS.py" beforeDir="false" afterPath="$PROJECT_DIR$/SBS/MainSBS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SBS/Widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/SBS/Widget.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SBS/Widget2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SBS/Widget2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +41,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/SBS" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/venv" />
+      <recent name="$PROJECT_DIR$/SBS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main2">
+  <component name="RunManager" selected="Python.test">
     <configuration name="MainWindow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySBS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,27 +60,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MainWindow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MyWidget_alt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySBS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyWidget_alt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,6 +131,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySBS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="testbench" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySBS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.main2" />
         <item itemvalue="Python.testbench" />
         <item itemvalue="Python.Widget" />
         <item itemvalue="Python.MainWindow" />
-        <item itemvalue="Python.MyWidget_alt" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646923363002</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="11.03.2022">
+      <created>1646998422774</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1646998422774</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,6 +298,7 @@
     <MESSAGE value="07.03.2022" />
     <MESSAGE value="09.03.2022" />
     <MESSAGE value="10.03.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.03.2022" />
+    <MESSAGE value="11.03.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.03.2022" />
   </component>
 </project>
