@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b94a2160-b99e-4d16-8f84-c52be8da4998" name="Changes" comment="14.03.2022&#10;Datenabnk API">
-      <change afterPath="$PROJECT_DIR$/SBS/cr_sqlite3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBS/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBS/main_sqlite3.py" afterDir="false" />
+    <list default="true" id="b94a2160-b99e-4d16-8f84-c52be8da4998" name="Changes" comment="15.3.2022&#10;Versuch die DB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SBS/Hallo.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SBS/Widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/SBS/Widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SBS/cr_sqlite3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SBS/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/SBS/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SBS/dbPySBS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SBS/testbench.py" beforeDir="false" afterPath="$PROJECT_DIR$/SBS/testbench.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,28 +51,7 @@
       <recent name="$PROJECT_DIR$/SBS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_sqlite3">
-    <configuration name="cr_sqlite3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySBS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SBS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SBS/cr_sqlite3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main2">
     <configuration name="db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySBS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +65,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SBS/db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dbPySBS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySBS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SBS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SBS/dbPySBS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="testbench" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySBS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SBS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SBS/testbench.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main_sqlite3" />
-        <item itemvalue="Python.db" />
-        <item itemvalue="Python.cr_sqlite3" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.main2" />
+        <item itemvalue="Python.testbench" />
+        <item itemvalue="Python.dbPySBS" />
+        <item itemvalue="Python.db" />
+        <item itemvalue="Python.main_sqlite3" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647264570257</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="14.03.2022&#10;Datenabnk API">
+      <created>1647423002580</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647423002580</updated>
+    </task>
+    <task id="LOCAL-00016" summary="15.3.2022&#10;Versuch die DB">
+      <created>1647423040180</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1647423040180</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,6 +333,7 @@
     <MESSAGE value="10.03.2022" />
     <MESSAGE value="11.03.2022" />
     <MESSAGE value="14.03.2022&#10;Datenabnk API" />
-    <option name="LAST_COMMIT_MESSAGE" value="14.03.2022&#10;Datenabnk API" />
+    <MESSAGE value="15.3.2022&#10;Versuch die DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.3.2022&#10;Versuch die DB" />
   </component>
 </project>

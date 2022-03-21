@@ -1,8 +1,15 @@
-from dbPySBS import DB
+from db import DB
 
-dbPySBS = DB()
-pk = dbPySBS.add_Customer("Mrs", "Eva", "Mueller", "091765432", "eva.mueller@sbs.de", "91096 Haurach", "Schaeffler")
-dbPySBS.delete_Customer(pk)
-results = dbPySBS.search("Max")
-print(results)
+db = DB()
+
+salutation = input("Titel: ")
+forename = input("Vorname: ")
+surename = input("Nachname: ")
+telephone = input("Telefon :")
+email = input("EMail: ")
+
+db.db_adduser(salutation, forename, surename, telephone, email)
+
+vals = db.db_getAll()
+print(vals)
 

@@ -1,6 +1,7 @@
 from PyQt6.QtWidgets import *
 from PyQt6.QtGui import *
 from PyQt6.QtCore import *
+from db import DB
 
 class Widget(QWidget):
     def __init__(self):
@@ -8,6 +9,8 @@ class Widget(QWidget):
 
         layout = QGridLayout(self)
         self.setLayout(layout)
+
+        self.db = DB()
 
         #add_button = QPushButton(self)
         #add_button.setText("add")
@@ -19,10 +22,11 @@ class Widget(QWidget):
         size = QSize(width, height)
         search_button = QPushButton(self)
         search_button.setText("search")
+        search_button.clicked.connect(self.search)
         icon_search = QIcon("./search_icon.png")
         search_button.setIcon(icon_search)
         search_button.setIconSize(size)
-        layout.addWidget(search_button,4,3,1,1)
+        layout.addWidget(search_button, 4, 3, 1, 1)
 
         self.combo1 = QComboBox(self)
         self.combo1.addItem("Lastname:")
@@ -60,6 +64,12 @@ class Widget(QWidget):
         #QRadioButton (Nur einen Punkt kann ich auswählen)
         #QCheckBox (Haken setzen)
         #QIcon (set.Icon) ----> Bild einfügen, den pfad einfügen
+
+    def search(self):
+        #self.db.search(self.textEdit1,self.textEdit2)
+        print("Es funktioniert")
+        print(self.db.search())
+
 
 
 
